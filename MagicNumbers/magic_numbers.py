@@ -9,6 +9,7 @@ def foo():
 		test = test.strip() 
 		if len(test) == len("".join(set(test))):
 			 print check_numbers(test)
+			 
 
 
 def check_numbers(numbers):
